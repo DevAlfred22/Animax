@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+h1 {
+  overflow: hidden;
+  border-right: 0.15em solid #000; /* Altere para a cor desejada */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3s steps(40, end) forwards;
+  padding: 10px;
+  color: white;
+  font-size: 1.8em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+
+
+ 
+
+  body{
+    background-image: url(../fotos/foto\ do\ trem\ para\ a\ pagina\ 0.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center center;
+    overflow: hidden;
+}
+
+
+button {
+  position: relative;
+  top: 20px;
+  left: 5%;
+  opacity: 20%;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+ 
+  width: 90px;
+  height: 40px;
+  border: 2px solid black;
+  box-shadow: 1px 1px 10px 1px black;
+  background: rgb(77, 114, 169);
+  color: wheat;
+  border-radius: 20%;
+}
+
+button:hover {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+a{
+  
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}

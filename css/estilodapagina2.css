@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+abbr{
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+
+
+@media screen and  (max-width:1366px){
+
+    body{
+        background-image: linear-gradient(to right,red,violet);
+    }
+
+   button{
+       
+       width: 210px;
+       height:400px;
+       border: 2px solid black;
+       position: relative;
+       top: 110px;
+       left: 26%;
+    
+   }
+
+   button:hover{
+    background-color: red;
+   }
+
+
+ 
+   .manga{
+       
+      background-image: url(../fotos/foto\ para\ botao\ de\ manga.jpg);
+   }
+
+   .manga:hover{
+    background-image: url(../fotos/imagem\ do\ hover\ para\ card\ grande\ manga.png);
+   }
+
+   .anime{
+    background-image: url(../fotos/foto\ para\ botao\ de\ anime.jpg);
+   }
+
+   .anime:hover{
+    background-image: url(../fotos/imagem\ do\ hover\ para\ card\ grande\ anime.png);
+   }
+   .noticia{
+    background-image: url(../fotos/noticiasgg.png);
+    
+   }
+   .noticia:hover{
+    background-image: url( ../fotos/imagem\ do\ hover\ para\ card\ grande\ noticia.png);
+   }
+
+   footer{
+    position: relative;
+    top:171px;
+    text-align: center;
+   }
+   footer>p{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+   }
+   a{
+    text-decoration: none;
+   }
+   a:hover{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 0, 255);
+    border-radius: 20%;
+   }
+    
+}
+
+
+@media screen and  (max-width:900px){
+
+    body{
+        background-image: linear-gradient(to right,red,violet);
+    }
+
+   button{
+       
+       width: 210px;
+       height:400px;
+       border: 2px solid black;
+       position: relative;
+       top: 10px;
+       left: 10%;
+    
+   }
+   .manga{
+       
+      background-image: url(../fotos/foto\ para\ botao\ de\ manga.jpg);
+   }
+
+   .anime{
+    background-image: url(../fotos/foto\ para\ botao\ de\ anime.jpg);
+   }
+
+   .noticia{
+    background-image: url(../fotos/noticiasgg.png);
+   }
+
+   footer{
+    position: relative;
+    top:50px;
+    text-align: center;
+   }
+   footer>p{
+    font-weight: bold;
+    color: rgb(255, 166, 0);
+   }
+   a{
+    text-decoration: none;
+   }
+   a:hover{
+    padding: 10px;
+    background-color: red;
+    color: yellow;
+    border-radius: 20%;
+   }
+    
+}
+
+@media screen and  (max-width:750px){
+
+    body{
+        background-image: linear-gradient(to right,red,violet);
+    }
+
+   button{
+       
+       width: 210px;
+       height:400px;
+       border: 2px solid black;
+       position: relative;
+       top: 20px;
+       left: 5%;
+    
+   }
+   .manga{
+       
+      background-image: url(../fotos/foto\ para\ botao\ de\ manga.jpg);
+   }
+
+   .anime{
+    background-image: url(../fotos/foto\ para\ botao\ de\ anime.jpg);
+   }
+
+   .noticia{
+    background-image: url(../fotos/noticiasgg.png);
+   }
+
+   footer{
+    position: relative;
+    top:50px;
+    text-align: center;
+   }
+   footer>p{
+    font-weight: bold;
+    color: rgb(255, 166, 0);
+   }
+   a{
+    text-decoration: none;
+   }
+   a:hover{
+    padding: 10px;
+    background-color: red;
+    color: yellow;
+    border-radius: 20%;
+   }
+    
+}
+
+
+@media screen and  (max-width:680px){
+
+    body{
+        background-image: linear-gradient(to right,red,violet);
+    }
+
+   button{
+       display: block;
+       width: 300px;
+       height:300px;
+       border: 2px solid black;
+       position: relative;
+       top: 10px;
+       left: 28%;
+       margin: 4px;
+    
+   }
+   .manga{
+       
+      background-image: url(../fotos/foto\ para\ botao\ de\ manga\ pequena.png);
+      background-repeat: no-repeat;
+      background-size: auto;
+    
+   }
+   .manga:hover{
+    background-image: url(../fotos/imagem\ do\ hover\ para\ card\ pequeno\ manga.png);
+   }
+
+   .anime{
+    background-image: url(../fotos/foto\ para\ botao\ de\ anime\ pequena.png);
+   }
+   
+   .anime:hover{
+    background-image: url(../fotos/imagem\ do\ hover\ para\ card\ pequeno\ anime.png);
+   }
+
+   .noticia{
+    background-image: url(../fotos/noticiam.png);
+   }
+
+   .noticia:hover{
+    background-image: url(../fotos/imagem\ do\ hover\ para\ card\ pequena\ noticia.png);
+   }
+
+   footer{
+    position: relative;
+    top:30px;
+    text-align: center;
+   }
+   footer>p{
+    font-weight: bold;
+    color: rgb(255, 166, 0);
+   }
+   a{
+    text-decoration: none;
+   }
+   a:hover{
+    padding: 10px;
+    background-color: red;
+    color: yellow;
+    border-radius: 20%;
+   }
+    
+}
+@media screen and  (max-width:600px){
+
+    body{
+        background-image: linear-gradient(to right,red,violet);
+    }
+
+   button{
+       display: block;
+       width: 300px;
+       height:300px;
+       border: 2px solid black;
+       position: relative;
+       top: 10px;
+       left: 15%;
+       margin: 4px;
+    
+   }
+   .manga{
+       
+      background-image: url(../fotos/foto\ para\ botao\ de\ manga\ pequena.png);
+   }
+
+   .anime{
+    background-image: url(../fotos/foto\ para\ botao\ de\ anime\ pequena.png);
+   }
+
+   .noticia{
+    background-image: url(../fotos/noticiam.png);
+   }
+
+   footer{
+    position: relative;
+    top:50px;
+    text-align: center;
+   }
+   footer>p{
+    font-weight: bold;
+    color: rgb(255, 166, 0);
+   }
+   a{
+    text-decoration: none;
+   }
+   a:hover{
+    padding: 10px;
+    background-color: red;
+    color: yellow;
+    border-radius: 20%;
+   }
+    
+}
+

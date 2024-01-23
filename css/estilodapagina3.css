@@ -1,0 +1,184 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+
+  background-color:  rgb(0, 168, 237);
+}
+header>img{
+    width: 18%;
+    
+}
+
+p{
+text-align: end;
+padding: 20px;
+
+}
+form{
+    display: table-footer-group;
+    position: relative;
+    left: 960px;
+}
+
+nav{
+    background-color:  rgb(0, 168, 237);
+    padding-top: 50px;
+   margin-bottom: 30px;
+    
+}
+nav>a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 10%;
+}
+nav>a:hover{
+    background-color: rgb(146, 25, 146);
+    color: white;
+}
+
+body{
+    background-color: silver;
+}
+
+
+main{
+    background-color: rgb(78, 78, 119);
+    margin: auto;
+    width: 95%;
+    
+}
+
+.card-pai{
+    display: inline-flex;
+
+
+}
+
+.card-filho{
+
+
+   position: relative;
+   left: 75px;
+    margin: 10px;
+    display: inline-flex;
+    width: 200px;
+    height: 410px;
+    border: 2px solid black;
+
+
+  
+
+}
+
+
+
+
+
+
+
+
+#berserk{
+    background-image: url(../fotos/berserk.jpg)
+}
+
+#boruto{
+
+    background-image: url(../fotos/boruto.jpg);
+
+}
+
+#fairy{
+
+    background-image: url(../fotos/fairy.jpg);
+
+}
+
+#vinland{
+
+    background-image: url(../fotos/vinland.jpg);
+
+}
+
+#jujutsu{
+
+background-image: url(../fotos/jujutsu.jpg);
+}
+
+#kaguya{
+    background-image: url(../fotos/kaguya.jpg);
+}
+
+#nanatsu{
+    background-image: url(../fotos/nanatsu.jpg);
+}
+
+
+#vagabond{ 
+    background-image: url(../fotos/vagabond.jpg);
+
+}
+
+
+#borutotwo{
+    background-image: url(../fotos/borutotwo.jpg);
+}
+
+#kimetsu{
+    background-image: url(../fotos/kimetsu.jpg);
+}
+
+#kagura{
+    background-image: url(../fotos/kagura.jpg);
+}
+
+#shingeki{
+    background-image: url(../fotos/shingeki.jpg );
+}
+
+#onepiece{
+    background-image: url(../fotos/one\ piece.jpg);
+}
+
+#noragami{
+    background-image: url(../fotos/noragami.jpg);
+}
+
+#edenszero{
+    background-image: url(../fotos/edenszero.jpg);
+}
+
+#soma{
+    background-image: url(../fotos/soma-chibi.png);
+}
+
+
+
+footer{
+    padding: 10px;
+    background-color: silver;
+    text-align: center;
+}
+
+footer>p{
+    font-size: 1.2em;
+    color: white
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgba(56, 56, 94, 0.253);
+    color: white;
+    text-decoration: line-through;
+    border-radius: 10%;
+
+}

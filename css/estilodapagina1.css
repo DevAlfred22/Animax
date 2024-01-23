@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow: hidden;
+}
+
+
+
+/* resolução para pc */
+@media screen and  (max-width: 1366px){
+
+    body{
+       background-image: url(../fotos/corpo\ para\ cadastro.png);
+
+  
+    }
+
+  form{
+
+    position: relative;
+    left:69%; /* 64%*/
+    width: 350px;
+    padding-top: 40px; 
+    padding-left:10px ;
+    margin: 10px;
+
+  }
+    
+ 
+   
+}
+
+/* resolução para pc */
+@media screen and  (max-width: 1200px){
+
+    body{
+       background-image: url(../fotos/corpo\ para\ cadastro.png);
+
+  
+    }
+
+  form{
+
+    position: relative;
+    left:60%; /* 64%*/
+    width: 350px;
+    padding-top: 40px; 
+    padding-left:10px ;
+    margin: 10px;
+
+  }
+    
+ 
+   
+}
+
+@media screen and  (max-width: 900px){
+
+    body{
+
+        /*ff5757 8c52ff*/
+
+        margin: 0;
+        padding: 0;
+        background-image:linear-gradient(to left, #ff5757,#8c52ff);
+        background-size: cover; /* Garante que a imagem de fundo cubra todo o corpo */
+        background-position: center; /* Centraliza a imagem de fundo */
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        height: 100vh; /* Garante que o corpo da página tenha 100% da altura da viewport */
+    }
+
+    form{
+
+       position: relative;
+       left: 28%;
+    }
+    
+
+
+   
+}
+
+@media screen and  (max-width: 600px){
+
+    body{
+background-image:linear-gradient(to left, #ff5757,#8c52ff);
+    }
+
+    form{
+
+        position: relative;
+        left: 13%;
+     }
+     
+   
+   
+}
+
+
+
+
+  
+
+
+
+
+.card{
+    box-shadow: 1px 1px 5px gray;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+
+.card-top{
+
+    text-align: center;
+
+}
+
+.card-top>img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card-group>label{
+    width: 100%;
+    display: block;
+    padding: 2px;
+
+}
+
+.card-group>input{
+    width: 100%;
+    background-color: rgb(240, 236, 236);
+    height: 30px;
+    border-radius: 10%;
+}
+
+.card-group>button{
+
+    text-align: center ;
+    width: 100%;
+    background-image:linear-gradient(to right, #bd8f72, #f87e33);
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+

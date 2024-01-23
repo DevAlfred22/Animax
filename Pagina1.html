@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilodapagina1.css">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>Animax</title>
+</head>
+<body> 
+  
+
+
+
+   <form class="login" action="">
+
+    <div class="card">
+
+      <div class="card-top">
+
+        <img src="../Animax/fotos/luffy meleca.gif" alt="">
+        <h3>Conecte-se</h3>
+      
+      </div>
+      <div class="card-group">
+
+
+        <label for="email">User</label>
+        <input type="text"  name="email" placeholder="Digite o nome de usuario " id="login">
+
+        <label for="senha">Senha</label>
+        <input type="password"  name="senha" placeholder="Digite a sua senha " id="senha">
+        
+        <div class="card-group">
+          <label for=""><input type="checkbox">Lembre-me</label>
+          
+         
+
+         <input type="submit" onclick="logar();return false">
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+   </form>
+
+   <script>
+   
+
+    function logar(){
+
+      var login = document.getElementById('login').value;
+      var senha = document.getElementById('senha').value;
+
+      if(login == "akira" && senha == "123"){
+         alert('Sucesso');
+         location.href = "pagina2.html";
+      } else{
+        alert('Usuario ou Senha Invalido');
+      }
+    }
+
+
+   </script>
+   
+        
+    
+      
+</body>
+</html>
