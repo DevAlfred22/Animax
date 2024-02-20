@@ -26,7 +26,7 @@
 
 
         <label for="email">User</label>
-        <input type="text"  name="email" placeholder="Digite o nome de usuario " id="login">
+        <input type="text"  name="email" placeholder="Digite o nome de usuario " id="user">
 
         <label for="senha">Senha</label>
         <input type="password"  name="senha" placeholder="Digite a sua senha " id="senha">
@@ -47,24 +47,25 @@
 
    </form>
 
+ 
    <script>
-   
 
     function logar(){
+        // Obter os valores dos campos de entrada
+        var user = document.getElementById('user').value;
+        var senha = document.getElementById('senha').value;
 
-      var login = document.getElementById('login').value;
-      var senha = document.getElementById('senha').value;
-
-      if(login == "akira" && senha == "123"){
-         alert('Sucesso');
-         location.href = "pagina2.html";
-      } else{
-        alert('Usuario ou Senha Invalido');
-      }
+        // Verificar se os campos não estão vazios
+        if(user.trim() !== "" && senha.trim() !== ""){
+            // Redirecionar para a página2.html
+            location.href = "pagina2.html";
+        } else {
+            // Se os campos estiverem vazios, exibir mensagem de erro
+            alert('Por favor, preencha ambos os campos.');
+        }
     }
+</script>
 
-
-   </script>
    
         
     
